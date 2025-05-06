@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills - Avni Sharma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Avni Sharma</h1>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="skills-section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <p>Here are some of the technical and soft skills I have developed so far:</p>
+
+      <div class="skills-container">
+        <ul class="skills-list">
+          <li class="skill-item">HTML</li>
+          <li class="skill-item">CSS</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">Bootstrap</li>
+          <li class="skill-item">Responsive Web Design</li>
+          <li class="skill-item">UI/UX Design Basics</li>
+          <li class="skill-item">Git & GitHub</li>
+          <li class="skill-item">Problem Solving</li>
+          <li class="skill-item">Team Collaboration</li>
+          <li class="skill-item">Time Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Avni Sharma. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
