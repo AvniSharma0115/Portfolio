@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+    font-weight: 700;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #ff6347; 
+  }
+  .hero {
+    background-color: #e0f7fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .hero a.btn {
+    display: inline-block;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+  }
+  
+  .hero a.btn:hover {
+    background-color: #e53e2d;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .skills-list li {
+    background-color: #e0e0e0;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .skills-list li:hover {
+    background-color: #d1d1d1;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .project h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .project p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .project ul {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .project ul li {
+    margin: 5px 0;
+  }
+  
+  .achievements ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievements ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e53e2d;
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .contact-info h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-links li a {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-links li a:hover {
+    color: #ff6347;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
