@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects & Achievements - Avni Sharma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Avni Sharma</h1>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>My Projects</h2>
+
+    <div class="project">
+      <h3>Health and Disease Management</h3>
+      <p>This website is focused on providing health information and disease awareness to users.</p>
+      <p>It includes pages for symptoms, prevention, common treatments, and tips for healthy living.</p>
+      <p>I used HTML and CSS to design a clean, user-friendly interface with clear navigation.</p>
+      <p>The site includes a responsive layout that adapts to mobile, tablet, and desktop views.</p>
+      <p>This project demonstrates my ability to build structured content for informative purposes.</p>
+    </div>
+
+    <div class="project">
+      <h3>Food Service Website</h3>
+      <p>This website is designed for an online food delivery service featuring a modern look and feel.</p>
+      <p>It includes sections for browsing the menu, placing orders, and viewing restaurant details.</p>
+      <p>I implemented attractive food cards and hover effects using only HTML and CSS.</p>
+      <p>The site structure is optimized for clarity, simplicity, and a good user experience.</p>
+      <p>This project helped me learn how to organize content for commercial food businesses.</p>
+    </div>
+
+    <div class="project">
+      <h3>Online Women’s Clothing Website</h3>
+      <p>This is an e-commerce style site for women's fashion including categories and product details.</p>
+      <p>I built responsive product galleries, navigation bars, and banners using HTML and CSS only.</p>
+      <p>Each clothing section includes descriptions, prices, and call-to-action buttons.</p>
+      <p>The site is optimized for both desktop and mobile users with a clean modern interface.</p>
+      <p>This project refined my ability to create layout-driven designs for online shopping experiences.</p>
+    </div>
+
+    <div class="project">
+      <h3>LPU University Website</h3>
+      <p>This website is created to represent Lovely Professional University in a structured digital format.</p>
+      <p>It includes sections on campus life, academic courses, admission details, and achievements.</p>
+      <p>The design uses clean layout principles and responsive sections to enhance readability.</p>
+      <p>I aimed to provide a simplified and informative browsing experience for students and parents.</p>
+      <p>This project shows my ability to create educational portals with clear information architecture.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>My Achievements</h2>
+
+    <div class="project">
+      <h3>Hackathon: Code-A-Haunt (24 Hours)</h3>
+      <p>I participated in a 24-hour hackathon called Code-A-Haunt, where I worked with a team on a real-world web development challenge.</p>
+      <p>We brainstormed, designed, and coded a solution under strict time constraints with full dedication.</p>
+      <p>The experience taught me how to collaborate, prioritize tasks, and code effectively under pressure.</p>
+      <p>I contributed in UI design and layout structuring using HTML and CSS.</p>
+      <p>This event enhanced my confidence in teamwork, communication, and real-time problem-solving.</p>
+    </div>
+
+    <div class="project">
+      <h3>Hackathon: TeachForge (24 Hours)</h3>
+      <p>TeachForge was a hackathon where our focus was on creating educational solutions using web technology.</p>
+      <p>My team and I developed a web-based idea that aimed to improve digital learning tools for students.</p>
+      <p>We researched features, sketched layouts, and implemented designs within the 24-hour deadline.</p>
+      <p>This hackathon helped sharpen my skills in both development and creative thinking.</p>
+      <p>I was responsible for the front-end structure and overall visual appeal of our platform.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Avni Sharma. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
