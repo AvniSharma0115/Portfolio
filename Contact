@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Avni Sharma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Avni Sharma</h1>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>I'd love to hear from you! Whether you have a question, project idea, or just want to say hello, feel free to reach out using the form below or via my contact details.</p>
+
+    <div class="contact-container">
+      <form action="#" method="post" class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> avnisharma0115@email.com</p>
+        <p><strong>Phone:</strong> +91-9520281542</p>
+        <p><strong>Location:</strong> Punjab, India</p>
+
+        <h4>Connect With Me</h4>
+<ul class="social-links">
+  <li><a href="https://www.linkedin.com/in/avni-sharma-307954304" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+  <li><a href="https://github.com/AvniSharma0115" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+  <li><a href="https://www.instagram.com/avniisharma_0.5?igsh=MWg5NTF0Zmc3aXNlbw==" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+</ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Avni Sharma. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
