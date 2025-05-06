@@ -1,0 +1,40 @@
+# Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Your Name</h1>
+      <ul>
+        <li><a href="Home.html" class="active">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Avni Sharma</h2>
+    <p>A passionate web developer & designer creating beautiful digital experiences.</p>
+    <p>I’m currently pursuing a Bachelor's degree in Computer Applications.</p>
+    <p>With a strong foundation in HTML, CSS, JavaScript, and UI/UX principles,</p>
+    <p>I specialize in building responsive and user-centric websites.</p>
+    <p>My goal is to deliver intuitive and elegant solutions that enhance user interaction.</p>
+    <p>Whether it's a landing page, a dynamic portfolio, or a full website,</p>
+    <p>I focus on clean code, modern layouts, and aesthetic details.</p>
+    <p>I also enjoy learning new technologies like Bootstrap and React to grow my skills.</p>
+    <p>Currently exploring ways to combine creativity with logic in frontend development.</p>
+    <p>Let’s work together to bring ideas to life on the web.</p>
+  
+    <a href="projects.html" class="btn">View My Projects</a>
+    <a href="contact.html" class="btn" style="margin-left: 10px;">Get In Touch</a>
+  </section>
+  
